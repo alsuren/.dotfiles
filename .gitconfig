@@ -1,0 +1,14 @@
+[user]
+	name = David Laban
+	email = alsuren@gmail.com
+[core]
+	excludesfile = /home/dlaban/.gitignore
+[log]
+	decorate = full
+
+[pager]
+    log = /usr/bin/perl /usr/share/doc/git/contrib/diff-highlight/diff-highlight | less
+    show = /usr/bin/perl /usr/share/doc/git/contrib/diff-highlight/diff-highlight | less
+    diff = /usr/bin/perl /usr/share/doc/git/contrib/diff-highlight/diff-highlight | less
+[color]
+	ui = true
