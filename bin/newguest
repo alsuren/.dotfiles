@@ -24,7 +24,7 @@ virt-install \
     --ram=256 \
     --vcpus=1 \
     --disk path=/var/lib/libvirt/images/${1}.img,size=2,cache=writeback \
-    --location http://ftp.debian.org/debian/dists/wheezy/main/installer-amd64/ \
+    --location http://ftp.debian.org/debian/dists/squeeze/main/installer-amd64/ \
     --vnc \
     --os-type=linux \
     --virt-type=kvm \
